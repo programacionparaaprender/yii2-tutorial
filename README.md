@@ -13,6 +13,12 @@ init
 0
 yes
 
+### pruebas
+http://localhost/yii2-tutorial/frontend/web/index.php?r=site/index
+
+index.php?=blog/post/index
+http://localhost/yii2-tutorial/frontend/web/index.php?r=bmi/cal
+
 Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
 
