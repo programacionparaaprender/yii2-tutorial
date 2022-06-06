@@ -17,12 +17,20 @@ use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use frontend\models\Bmi;
 
+
 class BmiController extends Controller
 {
     public function actionCal()
     {
+        $bmi = null;
         $model = new Bmi();
-        return $this->render('cal', ['model' => $model]);
+        if($model->load(Yii::$app->request->post())){
+            $bmi = $model->weight / ($model->height - $model->weight);
+        }
+        return $this->render('cal', [
+            'model' => $model,
+            'bmi' => $bmi,
+        ]);
     }
     /**
      * {@inheritdoc}

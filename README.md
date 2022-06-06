@@ -19,6 +19,10 @@ http://localhost/yii2-tutorial/frontend/web/index.php?r=site/index
 index.php?=blog/post/index
 http://localhost/yii2-tutorial/frontend/web/index.php?r=bmi/cal
 
+### página web
+https://www.yiiframework.com/
+https://www.yiiframework.com/doc/guide/2.0/en/input-forms
+
 Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
 
